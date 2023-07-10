@@ -1,4 +1,4 @@
-FROM alpine
+FROM amd64/alpine
 
 RUN apk update && apk upgrade
 RUN apk add openrc
